@@ -4,21 +4,27 @@
     z-index: 10;
 }
 .navbar{
-    background-image: linear-gradient(to right, rgb(235, 151, 130), rgb(248, 83, 71), rgb(165, 96, 144) );
+    background-image: linear-gradient(to right, rgb(235, 151, 130),rgb(248, 83, 71), rgb(165, 96, 144) );
     padding: 0% !important;
 }
-.navbar a{
-    color: white !important;
+#navbarNav a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
     font-weight: 600;
+    font-size: 1.1em;
+    margin: 10px;
+  border: 2px solid white; 
+  border-radius: 4px;
 }
-.nav-link{
-    border-bottom: 1px solid white;
-    padding-left: 10px ;
-    margin-right: 20px;
+#navbarNav a:hover{
+    border:2px solid rgb(255, 150, 150);
+    transform: translateY(4px);
 }
-.nav-link:hover{
-    border: 1px solid white;
-    border-radius: 4px;
+.fa-bars{
+    color: white;
+    font-size: 25px;
+    border: none;
 }
         /*---------------------------banner---------------------------------*/
 #banner{
@@ -63,25 +69,25 @@
     transform: translateY(6px)
 }
 .img1{
+    margin-top: 10px;    
 width: 150px;
 height: 150px;
-margin-top : 30px;
-margin-left: 60px;
+align-content: center;
   }
 .img2{
+    margin-top: 20px;
     width: 180px;
     height: 120px;
-    margin-top : 60px;
-    margin-left: 60px;
+    align-content: center;
+    margin-bottom: 20px;
   }
-.btn-primary{
+.btn-primary-Adj{
     border-radius: 50px !important;
     width: 130px;
     background:  linear-gradient(to right, rgb(235, 151, 130), rgb(248, 83, 71), rgb(165, 96, 144) );
     border:none !important;
     box-shadow: none !important;
 }
-
 /*------------------------------------------------- About us ---------------------------------------------------------*/
 #us{
     margin-top: 100px !important;
@@ -142,6 +148,7 @@ padding-top: 50px;
     background: white;
     border: 1px solid black;
     border-radius: 4px;
+    transform: translateY(-4px);
 }
 /*------------------------------------------Footer-------------------------------------- */
 
@@ -168,6 +175,7 @@ padding-top: 50px;
     text-decoration: none !important;
     color: white !important;
 }
+
 /* ----------------------------------------------copyright---------------------------------- */
 .copyright{
     color:rgb(255, 255, 255, 0.5);
